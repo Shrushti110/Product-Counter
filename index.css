@@ -1,26 +1,31 @@
 .card{
-    width: 340px;
+    width: 330px;
     border: 1px solid rgb(199, 191, 191);
     margin: 60px auto;
-    border-radius: 15px;
+    border-radius: 20px;
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
 }
 .img-book{
-    height: 200px;
+    height: 240px;
     display: block;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 .btn{
     display: block;
     margin: 30px auto;
-    font-size: 20px;
+    font-size: 22px;
     padding: 5px 20px;
     border-radius: 10px;
-    border: 1px solid rgb(199, 191, 191);
+    border: 1px solid rgb(166, 170, 168);
     cursor: pointer;
+    background-color: #d9a7c7;
 }
 .btn-quantity{
-    height: 30px;
+    height: 40px;
     margin-top: 10px;
+}
+.btn:hover{
+   box-shadow: 0px 0px 10px 0px rgb(227, 114, 207);
 }
 .quantity-btn-container{
     display: flex;
@@ -28,5 +33,5 @@
     align-items:center;
 }
 .quantity{
-    font-size:26px;
+    font-size:27px;
 }
